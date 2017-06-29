@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ android:background="@drawable/bg"
+    xmlns:slideswitch="http://schemas.android.com/apk/res-auto"
+    tools:context="nf.co.thehoproject.clapnfind.Home">
+
+
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/old"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<ImageView
+    android:scaleType="centerCrop"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:textColor="#d50000"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:typeface="serif"
+        android:layout_below="@+id/hint"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:id="@+id/button"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="163dp" />
+
+
+    <com.leaking.slideswitch.SlideSwitch
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="30dp"
+        slideswitch:isOpen="false"
+        android:id="@+id/tog"
+        slideswitch:shape="circle"
+        slideswitch:themeColor="#64dd17"
+        android:layout_alignLeft="@+id/ll"
+        android:layout_alignRight="@+id/ll"
+        android:layout_marginTop="65dp"
+        android:layout_below="@+id/textView">
+    </com.leaking.slideswitch.SlideSwitch>
+
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Identically Clap Loudly two times roughly with interval of 0.3-0.5 sec in between"
+        android:id="@+id/hint"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_above="@+id/hint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="18"
+        android:orientation="vertical"
+        android:layout_below="@+id/tog">
+
+
+
+        <Button
+            android:background="@color/cyan_600"
+            android:layout_margin="10dp"
+            android:layout_weight="3"
+            android:id="@+id/audio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+
+
+      <TextView
+          android:text="Threshold"
+          android:layout_weight="3"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+
+        <SeekBar
+            android:layout_margin="10dp"
+            android:layout_weight="3"
+            android:id="@+id/thre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="Sensitivity"
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <SeekBar
+            android:layout_margin="10dp"
+            android:layout_weight="3"
+            android:id="@+id/sens"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="Delay"
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <SeekBar
+            android:layout_margin="10dp"
+            android:layout_weight="3"
+            android:id="@+id/dela"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+    <ScrollView
+        android:id="@+id/neww"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="55dp">
+        <RelativeLayout
+            android:id="@+id/RelativeLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/Container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+                <ImageView
+                    android:id="@+id/Power_On"
+                    android:layout_width="290dp"
+                    android:layout_height="73dp"
+                    android:src="@drawable/power_on"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/desc" />
+                <ImageView
+                    android:id="@+id/Power_Off"
+                    android:layout_width="290dp"
+                    android:layout_height="73dp"
+                    android:src="@drawable/power_off"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/desc" />
+                <ImageView
+                    android:id="@+id/Change_Ringtone"
+                    android:layout_width="290dp"
+                    android:layout_height="98dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/custom_change_ringtone"
+                    android:layout_below="@+id/Power_Off"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/desc" />
+                <ImageView
+                    android:id="@+id/Screen"
+                    android:layout_width="290dp"
+                    android:layout_height="98dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/custom_screen"
+                    android:layout_below="@+id/Change_Ringtone"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/desc" />
+
+                <ImageView
+                    android:id="@+id/Password"
+                    android:layout_width="290dp"
+                    android:layout_height="98dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/custom_password"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/desc"
+                    android:layout_below="@+id/Screen" />
+                <ImageView
+                    android:id="@+id/Call"
+                    android:layout_width="290dp"
+                    android:layout_height="98dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/custom_call"
+                    android:layout_below="@+id/Password"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/desc" />
+                <ImageView
+                    android:id="@+id/Repeat_Song"
+                    android:layout_width="290dp"
+                    android:layout_height="98dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/custom_repeat"
+                    android:layout_below="@+id/Call"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/desc" />
+                <ImageView
+                    android:id="@+id/HeadPhone"
+                    android:layout_width="290dp"
+                    android:layout_height="98dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/custom_headphone"
+                    android:layout_below="@+id/Repeat_Song"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/desc" />
+                <ImageView
+                    android:id="@+id/Reset"
+                    android:layout_width="290dp"
+                    android:layout_height="98dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/custom_reset"
+                    android:layout_below="@+id/HeadPhone"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/desc" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>

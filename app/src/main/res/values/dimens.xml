@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="title_h">60.0dip</dimen>
+    <dimen name="title_rate_icon_padding">13.0dip</dimen>
+    <dimen name="title_border_size">5.0px</dimen>
+    <dimen name="title_font_size">25.0sp</dimen>
+    <dimen name="start_margin_top_bottom">20.0dip</dimen>
+    <dimen name="start_font_size">24.0sp</dimen>
+    <dimen name="main_font_size">18.0sp</dimen>
+    <dimen name="main_elements_margin">5.0dip</dimen>
+    <dimen name="main_elements_margin_3x">15.0dip</dimen>
+    <dimen name="main_elements_padding_sides">5.0dip</dimen>
+    <dimen name="main_other_apps_font_size">17.0sp</dimen>
+    <dimen name="main_other_apps_margin">5.0dip</dimen>
+    <dimen name="settings_other_games_icon_padding">5.0dip</dimen>
+    <dimen name="widget_margin">5.0dip</dimen>
+
+
+</resources>

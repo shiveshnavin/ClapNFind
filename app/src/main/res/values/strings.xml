@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">ClapnFind</string>
+
+    <string name="server">http://thehoproject.co.nf/</string>
+    <string name="call_activated">Activated during the call</string>
+    <string name="call_deactivated">Deactivated during the call</string>
+    <string name="cancel">back</string>
+    <string name="change_password">Change password</string>
+    <string name="choose_from_mobile_rings">Phone ring</string>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <string name="current_password_wrong">Wrong Password</string>
+    <string name="deactivated">App</string>
+    <string name="decline">Decline</string>
+    <string name="desc">Image</string>
+    <string name="enter_current_password">Last password:</string>
+    <string name="enter_new_password">New Password:</string>
+    <string name="enter_password_message">Pleas enter password</string>
+    <string name="headphone_activated">headsets On</string>
+    <string name="headphone_deactivated">headsets Off</string>
+    <string name="notification_activated">Notice On</string>
+    <string name="notification_deactivated">Notice Off</string>
+    <string name="option_content_call">"-Property during the call are the property make application to temporarily stop work during the incoming and outgoing calls so that the voices of the application does not issue during the call if the one next to you Baltsfir
+  - Note that property will need to activate the application restart When activate or stop the property will close the application and open it after a few Seconds automatically
+- You can activate or off by pressing a button above to proceed that property"</string>
+    <string name="option_content_headphone">"-Headsets property is the property shall make application beeps when beeping through a loudspeaker at the situation of headphones for mobile will not be an open alarm inside and outside speakers, but it follows you can locate mobile when zeroing in spite of placing the speakers in Mobile
+  - Note with the activation of that property will mobile music and incoming calls and outgoing tones out of the speakers through a microphone rather than through headphones
+  - You can activate the feature on or off by pressing a button above to proceed"</string>
+    <string name="option_content_notification">"-Property notice contained a feature will make the application to temporarily stop responding to reset during greeted the messages or notifications from any application last until the application does not issue the alert notice at each Ward tone
+  - Note when you activate that property only in the first time you will need to give the application permission to monitor the notices contained, page statements will appear when you press the activation button above to proceed property
+  - You can activate the feature on or off by pressing a button above to proceed"</string>
+    <string name="option_content_password">"-Property is the password reset feature enables you to close the application of your own word passage of only one even close the application, but you can not
+  - It will not allow the use of re-application mapping feature only enter the password
+  - You can activate the feature on or off by pressing a button above to proceed after you set a password"</string>
+    <string name="option_content_repeat">"- Repeat tone property is the property makes the tone is repeated continuously without stopping at beeping until you her arrest
+  - You can stop the sound from the notifications bar
+  - You can activate the feature on or off by pressing a button above to proceed"</string>
+    <string name="option_content_reset">"-Re-application mapping feature is a feature you can use when the application stops responding to reset it is to re-adjust the application to address a bug that happened (in the case if the application is running and then stop working)
+  -antbh Will be closed to activate all the properties and will clear the password and re-application of the initial image
+  - Note that property will need to activate the application restart When activate or stop the property will close the application and open it after a few Seconds automatically
+  - You can activate the feature by clicking on the button above to proceed"</string>
+    <string name="option_content_screen">"- Screen property is the property make application to temporarily stop working when the screen is illuminated, providing dramatically in battery
+  - Note that property will need to activate the application restart When activate or stop the property will close the application and open it after a few Seconds automatically
+  - You can activate the feature on or off by pressing a button above to proceed"</string>
+    <string name="option_notification_not_available">it s not available in your android version</string>
+    <string name="option_title_call">During call</string>
+    <string name="option_title_changeringtone">change ringtone</string>
+    <string name="option_title_headphone">Headset</string>
+    <string name="option_title_notification">Notice</string>
+    <string name="option_title_password">chose password</string>
+    <string name="option_title_repeat">Repeat tone</string>
+    <string name="option_title_reset">Re chose app</string>
+    <string name="option_title_screen">Screen</string>
+    <string name="password_activated">Chose Password is on</string>
+    <string name="password_changed">Password changed</string>
+    <string name="password_continue">continu</string>
+    <string name="password_deactivatedn">chosing password is off</string>
+    <string name="password_field_empty">Wrong password</string>
+    <string name="password_set">password chose</string>
+    <string name="password_title">Password</string>
+    <string name="re_enter_new_password">Re type new password :</string>
+    <string name="re_enter_new_password_wrong">Wrong password</string>
+    <string name="repeat_activated">Re tone is on</string>
+    <string name="repeat_deactivated">Re tone is off</string>
+    <string name="ring1">Police</string>
+    <string name="ring2">Cat</string>
+    <string name="ring3">Birds</string>
+    <string name="ring4">Warning</string>
+    <string name="ring5">Noise</string>
+    <string name="ring6">Dog</string>
+    <string name="ring7">Chiken</string>
+    <string name="ring8">Kids laught</string>
+    <string name="ringtone_changed">Tone changed</string>
+    <string name="screen_activated">Screen activated</string>
+    <string name="screen_deactivated">Screen is Off</string>
+    <string name="set_password">Chose password</string>
+    <string name="set_password_message">Pleas chose a password</string>
+    <string name="store_picture_message">Allow Ad to store image in Picture gallery?</string>
+    <string name="store_picture_title">Save image</string>
+    <string name="toast_wrong">an error has occurred</string>
+
+
+    <string name="url">post_url</string>
+    <bool name="class_name">true</bool>
+    <bool name="message">true</bool>
+    <bool name="localized_message">true</bool>
+    <bool name="causes">true</bool>
+    <bool name="stack_trace">true</bool>
+    <bool name="brand_name">false</bool>
+    <bool name="device_name">false</bool>
+    <bool name="model_number">false</bool>
+    <bool name="product_name">false</bool>
+    <bool name="sdk_version">false</bool>
+    <bool name="release">false</bool>
+    <bool name="incremental">false</bool>
+    <bool name="height">false</bool>
+    <bool name="width">false</bool>
+    <bool name="app_version">false</bool>
+    <bool name="tablet">false</bool>
+    <bool name="package_name">false</bool>
+    <bool name="device_orientation">false</bool>
+    <bool name="screen_layout">false</bool>
+    <bool name="vm_heap_size">false</bool>
+    <bool name="allocated_vm_size">false</bool>
+    <bool name="vm_max_heap_size">false</bool>
+    <bool name="vm_free_heap_size">false</bool>
+    <bool name="native_allocated_size">false</bool>
+    <bool name="battery_percentage">false</bool>
+    <bool name="battery_charging">false</bool>
+    <bool name="battery_charging_via">false</bool>
+    <bool name="sd_card_status">false</bool>
+    <bool name="internal_memory_size">false</bool>
+    <bool name="external_memory_size">false</bool>
+    <bool name="internal_free_space">false</bool>
+    <bool name="external_free_space">false</bool>
+    <bool name="device_rooted">false</bool>
+    <bool name="network_mode">false</bool>
+    <bool name="country">false</bool>
+
+
+</resources>

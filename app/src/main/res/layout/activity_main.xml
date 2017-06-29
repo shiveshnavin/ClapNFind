@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="55dp">
+        <RelativeLayout
+            android:id="@+id/RelativeLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/Container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+                <ImageView
+                    android:id="@+id/Power_On"
+                    android:layout_width="290dp"
+                    android:layout_height="73dp"
+                    android:src="@drawable/power_on"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/desc" />
+                <ImageView
+                    android:id="@+id/Power_Off"
+                    android:layout_width="290dp"
+                    android:layout_height="73dp"
+                    android:src="@drawable/power_off"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/desc" />
+                <ImageView
+                    android:id="@+id/Change_Ringtone"
+                    android:layout_width="290dp"
+                    android:layout_height="98dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/custom_change_ringtone"
+                    android:layout_below="@+id/Power_Off"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/desc" />
+                <ImageView
+                    android:id="@+id/Screen"
+                    android:layout_width="290dp"
+                    android:layout_height="98dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/custom_screen"
+                    android:layout_below="@+id/Change_Ringtone"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/desc" />
+
+                <ImageView
+                    android:id="@+id/Password"
+                    android:layout_width="290dp"
+                    android:layout_height="98dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/custom_password"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/desc"
+                    android:layout_below="@+id/Screen" />
+                <ImageView
+                    android:id="@+id/Call"
+                    android:layout_width="290dp"
+                    android:layout_height="98dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/custom_call"
+                    android:layout_below="@+id/Password"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/desc" />
+                <ImageView
+                    android:id="@+id/Repeat_Song"
+                    android:layout_width="290dp"
+                    android:layout_height="98dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/custom_repeat"
+                    android:layout_below="@+id/Call"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/desc" />
+                <ImageView
+                    android:id="@+id/HeadPhone"
+                    android:layout_width="290dp"
+                    android:layout_height="98dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/custom_headphone"
+                    android:layout_below="@+id/Repeat_Song"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/desc" />
+                <ImageView
+                    android:id="@+id/Reset"
+                    android:layout_width="290dp"
+                    android:layout_height="98dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/custom_reset"
+                    android:layout_below="@+id/HeadPhone"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/desc" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    </RelativeLayout>
